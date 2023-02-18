@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/mlflow-tutorial/mlruns/738813694646737170/48ae2227d2114a8891c9c6cbf6622b1a/artifacts
+end_time: 1676713055958
+entry_point_name: ''
+experiment_id: '738813694646737170'
+lifecycle_stage: active
+run_id: 48ae2227d2114a8891c9c6cbf6622b1a
+run_name: mysterious-elk-83
+run_uuid: 48ae2227d2114a8891c9c6cbf6622b1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676713052234
+status: 3
+tags: []
+user_id: pramo

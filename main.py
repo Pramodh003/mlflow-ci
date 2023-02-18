@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from hyperparamter import hyper_parameter_tuning
 data = pd.read_csv("Churn_Modelling.csv")
 #print(data.head())
 def cleaning_data(data):
@@ -68,7 +69,8 @@ experiment_name = "testing-rf"
 run_name = "churn_pred"
 run_metrics = get_metrics(y_test, y_pred, y_pred_prob)
 print(run_metrics)
-
+model_tuned,best_params = hyper_parameter_tuning(X_train, y_train)
+run_params = best_params
 def create_experiment(experiment_name,run_name,run_metrics,model,run_params=None):
     import mlflow
     mlflow.set_experiment(experiment_name)
@@ -88,4 +90,4 @@ def create_experiment(experiment_name,run_name,run_metrics,model,run_params=None
         
     print('Run - %s is logged to Experiment - %s' %(run_name, experiment_name))
 
-create_experiment(experiment_name,run_name,run_metrics,model)
+create_experiment(experiment_name,run_name,run_metrics,model_tuned,run_params)

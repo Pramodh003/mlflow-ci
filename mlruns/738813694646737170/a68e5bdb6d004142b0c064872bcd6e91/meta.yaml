@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/mlflow-tutorial/mlruns/738813694646737170/a68e5bdb6d004142b0c064872bcd6e91/artifacts
+end_time: 1676713195001
+entry_point_name: ''
+experiment_id: '738813694646737170'
+lifecycle_stage: active
+run_id: a68e5bdb6d004142b0c064872bcd6e91
+run_name: handsome-frog-71
+run_uuid: a68e5bdb6d004142b0c064872bcd6e91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676713190710
+status: 3
+tags: []
+user_id: pramo

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/mlflow-tutorial/mlruns/738813694646737170/c059a1a3015c4b89b0b6a3004b636793/artifacts
+end_time: 1676712917040
+entry_point_name: ''
+experiment_id: '738813694646737170'
+lifecycle_stage: active
+run_id: c059a1a3015c4b89b0b6a3004b636793
+run_name: merciful-perch-706
+run_uuid: c059a1a3015c4b89b0b6a3004b636793
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676712912842
+status: 3
+tags: []
+user_id: pramo
