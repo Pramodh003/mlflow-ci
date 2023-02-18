@@ -21,10 +21,10 @@ jobs:
           username: ${{ secrets.DOCKERUSERNAME }}
           password: ${{ secrets.DOCKERPASSWORD }}
 
-      - name: Build dockerfile
+      - name: Build Docker image
         run: |
-          docker build -t --file Dockerfile --tag akash300/$IMAGE_NAME .
-          docker push akash300/$IMAGE_NAME
+          docker build -t mlflow-churn .
+          docker tag mlflow-churn:latest akash300/mlflow-churun:latest
 
       - name: Run linting and formatting checks
         run: |
