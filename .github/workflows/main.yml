@@ -30,6 +30,7 @@ jobs:
         run: |
           pip install -r requirements.txt
           pip install pytest
+          chmod -R 777 main.py
           pytest main.py
           black --check main.py
 
