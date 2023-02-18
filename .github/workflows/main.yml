@@ -23,8 +23,8 @@ jobs:
 
       - name: Build dockerfile
         run: |
-          docker build -t --file Dockerfile --tag Pramod003/$IMAGE_NAME .
-          docker push Pramod003/$IMAGE_NAME
+          docker build -t --file Dockerfile --tag akash300/$IMAGE_NAME .
+          docker push akash300/$IMAGE_NAME
 
       - name: Run linting and formatting checks
         run: |
