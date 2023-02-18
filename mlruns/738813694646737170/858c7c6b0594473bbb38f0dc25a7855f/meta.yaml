@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/mlflow-tutorial/mlruns/738813694646737170/858c7c6b0594473bbb38f0dc25a7855f/artifacts
+end_time: 1676711690173
+entry_point_name: ''
+experiment_id: '738813694646737170'
+lifecycle_stage: active
+run_id: 858c7c6b0594473bbb38f0dc25a7855f
+run_name: beautiful-croc-917
+run_uuid: 858c7c6b0594473bbb38f0dc25a7855f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676711685985
+status: 3
+tags: []
+user_id: pramo
